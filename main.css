@@ -47,14 +47,8 @@ td{
 #board{
     margin-bottom: 20px;
     min-width: 500px;
-    text-align: center;
-    overflow: hidden;
-}
-#Check{
-    float: right;
-}
-#clear{
-    float: left;
+    display: flex;
+    justify-content: space-between;
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
