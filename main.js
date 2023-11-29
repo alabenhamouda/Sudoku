@@ -381,7 +381,7 @@ function fillTable(){
     var randcol = Math.floor(Math.random()  * sideLength);
     uncompleteSudoku[randrow][randcol] = sudoku[randrow][randcol];
     uncompleteSudoku[8 - randrow][8 - randcol] = sudoku[8 - randrow][8 - randcol];
-    console.log("im here");
+    console.log("Im here");
  }
 
  function solve(arr){
